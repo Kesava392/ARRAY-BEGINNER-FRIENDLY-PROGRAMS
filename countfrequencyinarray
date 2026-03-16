@@ -1,0 +1,5 @@
+arr=[45,67,77,88,45,77,67]
+freq={}
+for num in arr:
+    freq[num]=freq.get(num,0)+1
+print(freq)
