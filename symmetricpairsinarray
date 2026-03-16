@@ -1,0 +1,7 @@
+arr=[(1,2),(5,6),(2,1),(7,8),(6,5)]
+seen=set()
+for a,b in arr:
+    if(b,a) in seen:
+        print((a,b),(b,a))
+    else:
+        seen.add((a,b))
